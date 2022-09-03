@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+    gap: 2px;
+    justify-content: center;
+
+    /*grid-template-rows: mansory;*/
+
+    margin: 0 auto;
+}
+
+.grid-item{
+    width: 220px;
+    /*height: 180px;
+    object-fit: cover;*/
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: zoom-in;
+    background-color: rgb(136, 92, 92);
+}
+
+.grid-item:cover{
+    filter: opacity(0.9);
+}
